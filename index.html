@@ -1,0 +1,360 @@
+
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HazeSquad- FAQ e Ajuda</title>
+  <link rel="stylesheet" href="demofruit.css">
+  
+  <!-- Importação otimizada de fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome para ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <img class="logo" src="https://cdn.discordapp.com/attachments/1350673942804693064/1350677900524916736/1131_Sem_Titulo_20250314202856.png?ex=67d79c51&is=67d64ad1&hm=d095e35fd17039653f4dd9082a371fbe4c3c05ea34ddc97a095645661b9a8251&" alt="Logo DemoFruit" height="40px" width="40px">
+      <nav class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contato</a>
+        <a href="#play-now" class="play-btn">Jogar Agora</a>
+      </nav>
+     <i class="fa-solid fa-moon fa-bounce toggle-theme"></i>
+    </div>
+  </header>
+
+  <main>
+      <!-- Seção de Introdução -->
+   <section id="home" class="intro">
+     <h1 class="slogan">FAQ — Ajuda Haze Squad e Informações Importantes</h1>
+     <p class="intro-text">Tudo o que você precisa saber sobre o Demon Fruit, o jogo de mundo aberto inspirado em One Piece no Roblox!</p>
+     <iframe width="290" height="150" src="" title="Trailer DemoSeas" frameborder="0" allowfullscreen></iframe>
+     <p class="link"><a href="">Clique aqui para ver o trailer</a></p>
+   </section>
+
+   <!-- Seção de FAQ -->
+   <section id="faq" class="faq">
+     <h2 class="ask">Ajuda / Perguntas Frequentes</h2>
+     <div class="instrucoes">
+       <h3 class="topic1"><span class="top"><i class="fas fa-exclamation-triangle"></i></span> O que é Demon Fruit?</h3>
+       <hr>
+       <p class="sobre">
+         O <i>Haze Squad</i> é um jogo de <i>mundo aberto</i> com diversas ilhas para explorar, inspirado em <i>One Piece</i>. Disponível no Roblox, você precisa coletar frutas diferentes para ganhar novos poderes, progredir de níveis e explorar novos mundos. Derrote monstros para ganhar XP e use-o para melhorar suas frutas!
+       </p>
+       <p class="link"><a href="">Clique aqui para ver o trailer</a></p>
+     </div>
+     <div class="instrucoes">
+       <h3 class="topic1"><span class="top"><i class="fas fa-question"></i></span> Como começar a jogar?</h3>
+       <hr>
+       <p class="sobre">
+         Para começar, acesse o Play Store, procure por "Haze Squad" na barra de pesquisa e clique em "Jogar". Crie seu personagem, escolha sua primeira fruta e comece sua aventura!
+       </p>
+     </div>
+     <div class="instrucoes">
+       <h3 class="topic1"><span class="top"><i class="fas fa-gamepad"></i></span> Quais são os controles?</h3>
+       <hr>
+       <p class="sobre">
+         Os controles básicos são: <br>
+         - <strong>WASD</strong>: Movimentação<br>
+         - <strong>Espaço</strong>: Pular<br>
+         - <strong>Botão Esquerdo do Mouse</strong>: Atacar<br>
+         - <strong>E</strong>: Usar habilidade da fruta<br>
+         Consulte o menu de configurações no jogo para personalizar.
+       </p>
+     </div>
+   </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact" class="contact">
+      <h2 class="ask">Entre em Contato</h2>
+      <form class="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+        
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" placeholder="Sua dúvida ou sugestão" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      <button id="feedback-btn" class="feedback-btn">Nos dê um feedback do nosso design</button>
+    </section>
+
+    <!-- Seção de Compartilhamento -->
+    <section class="share">
+      <h2 class="ask">Compartilhe com seus Amigos!</h2>
+      <div class="social-buttons">
+        <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
+        <a href="#" class="social-btn discord"><i class="fab fa-discord"></i> Discord</a>
+        <a href="#" class="social-btn facebook"><i class="fab fa-facebook"></i> Facebook</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Seção de Suporte ao Vivo -->
+  <section id="live-support" class="live-support">
+    <h2 class="ask">Suporte ao Vivo</h2>
+    <p>Escolha um atendente para conversar agora!</p>
+
+    <!-- Campo de busca por nome ou ID -->
+    <div class="support-search">
+      <input type="text" id="support-search-input" placeholder="Digite o nome ou ID">
+      <button id="search-support-btn">Buscar</button>
+    </div>
+
+    <!-- Lista de atendentes -->
+    <div id="support-list" class="support-list"></div>
+  </section>
+(Estes atendentes é repostas programadas para ser geradas no javascript para ele responder)
+  <!-- Modal para o chat -->
+  <div id="chat-modal" class="chat-modal">
+    <div class="chat-modal-content">
+      <span class="close-modal">×</span>
+      <h3>Chat com <span id="chat-attendant-name"></span></h3>
+      <div id="chat-messages" class="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="chat-input" placeholder="Digite sua mensagem...">
+        <button id="send-message-btn">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal para Feedback -->
+  <div id="feedback-modal" class="feedback-modal">
+    <div class="feedback-modal-content">
+      <span class="close-feedback-modal">×</span>
+      <h3>Nos dê seu feedback!</h3>
+      <form id="feedback-form">
+        <label for="feedback-name">Nome (opcional):</label>
+        <input type="text" id="feedback-name" name="feedback-name" placeholder="Seu nome">
+        
+        <label for="feedback-email">E-mail (opcional):</label>
+        <input type="email" id="feedback-email" name="feedback-email" placeholder="Seu e-mail">
+        
+        <label for="feedback-message">O que achou do nosso design?</label>
+        <textarea id="feedback-message" name="feedback-message" placeholder="Sua opinião é muito importante!" required></textarea>
+        
+        <button type="submit">Enviar Feedback</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 HazeSquad. Todos os direitos reservados.</p>
+      <div class="footer-links">
+        <a href="#privacy">Política de Privacidade</a>
+        <a href="#terms">Termos de Uso</a>
+        <a href="#support">Suporte</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript para interatividade -->
+  <script>
+    // Lista de atendentes
+    const attendants = [
+      { id: "001", name: "Dinho", status: "online" },
+      { id: "002", name: "Bia", status: "online" },
+      { id: "003", name: "Carlos", status: "offline" },
+    ];
+
+    // Função pra renderizar a lista de atendentes
+    function renderSupportList(filteredAttendants) {
+      const supportList = document.getElementById("support-list");
+      supportList.innerHTML = "";
+      filteredAttendants.forEach(attendant => {
+        const card = document.createElement("div");
+        card.classList.add("support-card");
+        card.innerHTML = `
+          <h4>${attendant.name}</h4>
+          <p>ID: ${attendant.id}</p>
+          <p>Status: ${attendant.status}</p>
+        `;
+        card.addEventListener("click", () => openChatModal(attendant));
+        supportList.appendChild(card);
+      });
+    }
+
+    // Função pra abrir o modal de chat
+    let currentAttendant = null;
+    function openChatModal(attendant) {
+      currentAttendant = attendant;
+      const modal = document.getElementById("chat-modal");
+      const attendantName = document.getElementById("chat-attendant-name");
+      const chatMessages = document.getElementById("chat-messages");
+
+      attendantName.textContent = attendant.name;
+      chatMessages.innerHTML = "";
+      modal.style.display = "block";
+
+      const savedMessages = JSON.parse(localStorage.getItem(`chat_${attendant.id}`)) || [];
+      savedMessages.forEach(msg => addMessageToChat(msg.sender, msg.text));
+
+      if (attendant.status === "online" && savedMessages.length === 0) {
+        setTimeout(() => {
+          const msg = `Fala aí! Eu sou o ${attendant.name}. Tô aqui pra te ajudar com o DemoFruit. Qual é a boa?`;
+          addMessageToChat("attendant", msg);
+          saveMessage(attendant.id, "attendant", msg);
+        }, 500);
+      } else if (attendant.status === "offline") {
+        setTimeout(() => {
+          const msg = `Desculpe, tô offline agora. Tenta outro atendente ou manda um email!`;
+          addMessageToChat("attendant", msg);
+          saveMessage(attendant.id, "attendant", msg);
+        }, 500);
+      }
+    }
+
+    // Função pra adicionar mensagem ao chat
+    function addMessageToChat(sender, message) {
+      const chatMessages = document.getElementById("chat-messages");
+      const messageDiv = document.createElement("div");
+      messageDiv.classList.add("chat-message", sender);
+      messageDiv.textContent = message;
+      chatMessages.appendChild(messageDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    // Função pra salvar mensagem no LocalStorage
+    function saveMessage(attendantId, sender, message) {
+      const savedMessages = JSON.parse(localStorage.getItem(`chat_${attendantId}`)) || [];
+      savedMessages.push({ sender, text: message });
+      localStorage.setItem(`chat_${attendantId}`, JSON.stringify(savedMessages));
+    }
+
+    // Função pra chamar a API da Cohere
+    async function getCohereResponse(userMessage) {
+      const apiKey = "sZiSEdKil0oFMd4CWn1bpSOBm9o8ql6Y5LYgIjce";
+      const url = "https://api.cohere.ai/v1/generate";
+
+      const preamble = `Você é o Dinho, um ajudante descontraído que só responde sobre o jogo DemoFruit, um RPG de mundo aberto no Roblox inspirado em One Piece. Você ajuda com dicas, mecânicas, controles, frutas, ilhas e tudo relacionado ao jogo. Responda num tom amigável e informal, como se fosse um amigo ajudando outro. Se a pergunta for sobre qualquer outro tema que não seja o DemoFruit, responda só com "ASK EXTERN BLOCKED: ERR_400!" e nada mais.\n\nContexto do DemoFruit:\n- Jogo de mundo aberto no Roblox.\n- Inspirado em One Piece.\n- Tem várias ilhas pra explorar.\n- Jogadores coletam frutas pra ganhar poderes.\n- Podem subir de nível, lutar contra monstros e melhorar habilidades.\n- Controles básicos: WASD pra andar, Espaço pra pular, Botão Esquerdo do Mouse pra atacar, E pra usar habilidade da fruta.\n\nPergunta do usuário: "${userMessage}"\n\nResponda como o Dinho: \n fala brasileiro`;
+
+      try {
+        const response = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${apiKey}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            model: "command",
+            prompt: preamble,
+            max_tokens: 150,
+            temperature: 0.7,
+            k: 0,
+            stop_sequences: [],
+            return_likelihoods: "NONE"
+          }),
+        });
+
+        if (!response.ok) {
+          throw new Error("Erro na API da Cohere");
+        }
+
+        const data = await response.json();
+        return data.generations[0].text.trim();
+      } catch (error) {
+        console.error("Erro ao chamar a API da Cohere:", error);
+        return "Desculpa, deu um erro aqui. Tenta de novo!";
+      }
+    }
+
+    // Evento de busca por nome ou ID
+    document.getElementById("search-support-btn").addEventListener("click", () => {
+      const searchInput = document.getElementById("support-search-input").value.toLowerCase();
+      const filteredAttendants = attendants.filter(attendant =>
+        attendant.name.toLowerCase().includes(searchInput) || attendant.id.includes(searchInput)
+      );
+      renderSupportList(filteredAttendants);
+    });
+
+    // Evento pra enviar mensagem
+    document.getElementById("send-message-btn").addEventListener("click", async () => {
+      const chatInput = document.getElementById("chat-input");
+      const message = chatInput.value.trim();
+      if (message && currentAttendant) {
+        addMessageToChat("user", message);
+        saveMessage(currentAttendant.id, "user", message);
+        chatInput.value = "";
+
+        if (currentAttendant.status === "online") {
+          if (currentAttendant.name === "Dinho") {
+            const reply = await getCohereResponse(message);
+            addMessageToChat("attendant", reply);
+            saveMessage(currentAttendant.id, "attendant", reply);
+          } else {
+            setTimeout(() => {
+              const reply = "Tô vendo aqui... Pode mandar mais detalhes?";
+              addMessageToChat("attendant", reply);
+              saveMessage(currentAttendant.id, "attendant", reply);
+            }, 1000);
+          }
+        }
+      }
+    });
+
+    // Fechar o modal de chat
+    document.querySelector(".close-modal").addEventListener("click", () => {
+      document.getElementById("chat-modal").style.display = "none";
+      currentAttendant = null;
+    });
+
+    // Fechar o modal de chat ao clicar fora
+    window.addEventListener("click", (event) => {
+      const modal = document.getElementById("chat-modal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+        currentAttendant = null;
+      }
+    });
+
+    // Abrir o modal de feedback
+    document.getElementById("feedback-btn").addEventListener("click", () => {
+      document.getElementById("feedback-modal").style.display = "block";
+    });
+
+    // Fechar o modal de feedback
+    document.querySelector(".close-feedback-modal").addEventListener("click", () => {
+      document.getElementById("feedback-modal").style.display = "none";
+    });
+
+    // Fechar o modal de feedback ao clicar fora
+    window.addEventListener("click", (event) => {
+      const modal = document.getElementById("feedback-modal");
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+
+    // Enviar feedback (simulação)
+    document.getElementById("feedback-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      alert("Obrigado pelo seu feedback! Vamos analisar sua opinião.");
+      document.getElementById("feedback-modal").style.display = "none";
+      document.getElementById("feedback-form").reset();
+    });
+
+    // Manter funcionalidade do FAQ e tema
+    document.querySelectorAll(".instrucoes").forEach(item => {
+      item.addEventListener("click", () => item.classList.toggle("expanded"));
+    });
+
+    document.querySelector(".toggle-theme").addEventListener("click", () => {
+      document.body.classList.toggle("light-theme");
+    });
+
+    // Renderizar a lista inicial
+    renderSupportList(attendants);
+  </script>
+</body>
+</html>
